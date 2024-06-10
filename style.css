@@ -621,6 +621,15 @@ footer span {
 }
 
 @media (max-width: 480px) {
+    .skills,
+    .projects {
+        margin: 0 3rem;
+        padding: 3rem 0;
+    }
+    .contact {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
     .skill__card > img {
         width: 60px;
         height: 60px;
@@ -635,6 +644,6 @@ footer span {
         transform: translateY(0px);
     }
     .contact__medias {
-        width: 90%;
+        width: 100%;
     }
 }
