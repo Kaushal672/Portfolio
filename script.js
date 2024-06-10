@@ -129,16 +129,20 @@ document.querySelector('.nav-burger').addEventListener('click', function (e) {
 
 let lastScrollTop = 0;
 const mobileNav = document.querySelector('.mobile-nav');
+const scrollThreshold = 30; // Minimum scroll distance to trigger navbar visibility change
 
 window.addEventListener('scroll', () => {
     let currentScroll = document.documentElement.scrollTop;
+    let scrollDifference = Math.abs(currentScroll - lastScrollTop);
 
-    if (currentScroll > lastScrollTop) {
-        // Scroll down
-        mobileNav.style.top = '-280px'; // Hide navbar when scrolling down
-    } else {
-        // Scroll up
-        mobileNav.style.top = '0'; // Show navbar when scrolling up
+    if (scrollDifference >= scrollThreshold) {
+        if (currentScroll > lastScrollTop) {
+            // Scroll down
+            mobileNav.style.top = '-280px'; // Hide navbar when scrolling down
+        } else {
+            // Scroll up
+            mobileNav.style.top = '0'; // Show navbar when scrolling up
+        }
+        lastScrollTop = currentScroll;
     }
-    lastScrollTop = currentScroll;
 });
