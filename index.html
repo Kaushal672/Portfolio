@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="mobile-nav">
+                <span class="logo">KB</span>
+                <button class="nav-burger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav__links collapse">
+                    <li><a class="nav__link" href="#section--1">Skills</a></li>
+                    <li><a class="nav__link" href="#section--2">Project</a></li>
+                    <li><a class="nav__link nav__btn" href="#">Resume</a></li>
+                    <li><a class="nav__link" href="#section--3">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="nav">
+                <span class="logo">KB</span>
+                <ul class="nav__links desktop-nav">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section--1">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section--2">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link nav__btn" href="#">Resume</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section--3">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <div class="header__about">
+                    <h1>
+                        Hi There! <span id="wave">👋🏼</span> <br />I'm Kaushal K
+                        Bhandary
+                    </h1>
+                    <p>
+                        A dedicated software developer specializing in
+                        <strong class="highlight">JavaScript</strong>,
+                        <strong class="highlight">ReactJS</strong> and
+                        <strong class="highlight">NodeJs</strong>. With a strong
+                        background in building dynamic, high-performance web
+                        applications. Passionate about coding and
+                        problem-solving. I am committed to delivering robust and
+                        innovative software solutions.
+                    </p>
+                    <div class="header__actions">
+                        <a class="btn-lg contact__btn" href="#section--3"
+                            >Contact Me</a
+                        >
+                        <a class="btn-lg nav__btn" href="#">Resume</a>
+                    </div>
+                </div>
+                <div class="header__svg">
+                    <object
+                        type="image/svg+xml"
+                        class="header__img"
+                        data="programmernew.svg"></object>
+                </div>
+            </div>
+        </header>
+        <section id="section--1" class="skills section section--hidden">
+            <h2>Areas of <strong class="highlight">Expertise</strong></h2>
+            <div class="skills__container">
+                <div class="skill__card">
+                    <img src="./assets/icons8-javascript-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>JavaScript</h4>
+                        <p>
+                            I'm proficient in advanced JavaScript, including ES6
+                            features, asynchronous programming, DOM
+                            manipulation.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-html-64.png" alt="" />
+                    <div class="skill__card-content">
+                        <h4>HTML</h4>
+                        <p>
+                            I'm proficient in HTML5, including semantic
+                            elements, APIs, and responsive design techniques.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-css-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>CSS</h4>
+                        <p>
+                            I'm proficient in CSS, including flexbox, grid
+                            layout, responsive design, and animations.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-react-js-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>ReactJS</h4>
+                        <p>
+                            Proficient in React.js: component lifecycle, hooks,
+                            state management, JSX, and building dynamic,
+                            responsive web applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-node-js-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>NodeJS</h4>
+                        <p>
+                            Proficient in Node.js: building RESTful APIs,
+                            handling asynchronous operations, using Express.js,
+                            and managing databases.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-php-64.png" alt="" />
+                    <div class="skill__card-content">
+                        <h4>PHP</h4>
+                        <p>
+                            Proficient in PHP: Dynamic web development,
+                            server-side scripting, database integration, and
+                            building robust, interactive web applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-python-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>Python</h4>
+                        <p>
+                            Basic Python Skills: Syntax, data structures,
+                            control flow, functions, file handling, error
+                            handling, algorithms.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-java-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>Java</h4>
+                        <p>
+                            Proficient in Java: Advanced syntax, object-oriented
+                            principles, exception handling, data structures,
+                            design patterns.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-mysql-64.png" alt="" />
+                    <div class="skill__card-content">
+                        <h4>MySQL</h4>
+                        <p>
+                            Proficient in MySQL: Database design, SQL queries,
+                            CRUD operations, indexing, normalization, data
+                            manipulation.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-mongo-db-64.png" alt="" />
+                    <div class="skill__card-content">
+                        <h4>MongoDB</h4>
+                        <p>
+                            Proficient in MongoDB: NoSQL database management,
+                            data modeling, CRUD operations, indexing,
+                            aggregation, and performance optimization.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-c.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>C++</h4>
+                        <p>
+                            Proficient in C++: Data structures, algorithms,
+                            memory management, standard template library (STL),
+                            and performance optimization.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <img src="./assets/icons8-git-64.svg" alt="" />
+                    <div class="skill__card-content">
+                        <h4>Git</h4>
+                        <p>
+                            Proficient in Git: Version control, branching,
+                            merging, conflict resolution, repository management,
+                            and collaboration workflows.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--2" class="projects section section--hidden">
+            <h2>My <strong class="highlight">Works</strong></h2>
+            <div class="projects__container">
+                <div class="project__card">
+                    <img
+                        class="project__img lazy-img"
+                        src="./assets/visit-india lazy.png"
+                        data-src="./assets/visit-india.png"
+                        alt="" />
+                    <div class="project__details">
+                        <h4>Visit India</h4>
+                        <p>
+                            A Node.js web application project of India tour
+                            guide prototype. It is a web application designed to
+                            add, review and share user's tour places around
+                            India.
+                        </p>
+                        <div class="project__actions">
+                            <a
+                                class="btn btn-github"
+                                href="https://github.com/Kaushal672/visit-india"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="./assets/github-mark-white.png"
+                                    alt="" />Github</a
+                            >
+                            <a
+                                href="https://visit-india.onrender.com"
+                                class="btn btn-live"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="./assets/icons8-internet-connection-100.png"
+                                    alt="" />Live</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img
+                        class="project__img lazy-img"
+                        src="./assets/amazon lazy.png"
+                        data-src="./assets/amazon.png"
+                        alt="" />
+                    <div class="project__details">
+                        <h4>Amazon Clone</h4>
+                        <p>
+                            A clone of famous e-commerce website using React for
+                            frontend and Express for backend. React to build a
+                            dynamic and responsive user interface. Express to
+                            handle server-side logic, API endpoints and database
+                            interaction.
+                        </p>
+                        <div class="project__actions">
+                            <a
+                                class="btn btn-github"
+                                href="https://github.com/Kaushal672/amazon-react-clone"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="./assets/github-mark-white.png"
+                                    alt="" />Github</a
+                            >
+                            <a
+                                href="https://amazon-react-clone-ten.vercel.app/"
+                                class="btn btn-live"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="./assets/icons8-internet-connection-100.png"
+                                    alt="" />Live</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img
+                        class="project__img lazy-img"
+                        src="./assets/taste-trove lazy.png"
+                        data-src="./assets/taste-trove.png"
+                        alt="" />
+                    <div class="project__details">
+                        <h4>Taste Trove</h4>
+                        <p>
+                            Discover delightful recipes and culinary tips on our
+                            vibrant blog, crafted with PHP for seamless,
+                            functionality, CSS for stunning visuals, and
+                            JavaScript for interactive experiences.
+                        </p>
+                        <div class="project__actions">
+                            <a
+                                class="btn btn-github"
+                                href="https://github.com/Kaushal672/taste-trove"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="./assets/github-mark-white.png"
+                                    alt="" />Github</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--3" class="contact section section--hidden">
+            <h2><strong class="highlight">Connect</strong> with me!</h2>
+            <div class="contact__content">
+                <p>
+                    I am available on almost every social media. You can message
+                    me, I will reply within 24 hours.
+                </p>
+                <div class="contact__medias">
+                    <a
+                        href="https://github.com/Kaushal672"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact__icon">
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/kaushal-bhandary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact__icon">
+                        <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+                    </a>
+                    <a
+                        href="mailto:kbhandary672@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact__icon">
+                        <i class="fa-regular fa-envelope fa-2xl"></i>
+                    </a>
+                    <a
+                        href="https://leetcode.com/u/Kaushal_K_Bhandary/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact__icon">
+                        <svg
+                            id="SvgjsSvg1061"
+                            width="20"
+                            height="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            version="1.1"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:svgjs="http://svgjs.com/svgjs">
+                            <defs id="SvgjsDefs1062"></defs>
+                            <g id="SvgjsG1063">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    enable-background="new 0 0 24 24"
+                                    viewBox="0 0 24 24"
+                                    width="20"
+                                    height="20">
+                                    <path
+                                        d="M22,14.355c0-0.742-0.564-1.346-1.26-1.346H10.676c-0.696,0-1.26,0.604-1.26,1.346s0.563,1.346,1.26,1.346H20.74C21.436,15.702,22,15.098,22,14.355z"
+                                        fill="#ffffff"
+                                        class="color000 svgShape"></path>
+                                    <path
+                                        d="M3.482,18.187l4.313,4.361C8.768,23.527,10.113,24,11.598,24c1.485,0,2.83-0.512,3.805-1.494l2.588-2.637c0.51-0.514,0.492-1.365-0.039-1.9c-0.531-0.535-1.375-0.553-1.884-0.039l-2.676,2.607c-0.462,0.467-1.102,0.662-1.809,0.662s-1.346-0.195-1.81-0.662l-4.298-4.363c-0.463-0.467-0.696-1.15-0.696-1.863c0-0.713,0.233-1.357,0.696-1.824l4.285-4.38c0.463-0.467,1.116-0.645,1.822-0.645s1.346,0.195,1.809,0.662l2.676,2.606c0.51,0.515,1.354,0.497,1.885-0.038c0.531-0.536,0.549-1.387,0.039-1.901l-2.588-2.636c-0.649-0.646-1.471-1.116-2.392-1.33l-0.034-0.007l2.447-2.503c0.512-0.514,0.494-1.366-0.037-1.901c-0.531-0.535-1.376-0.552-1.887-0.038L3.482,10.476C2.509,11.458,2,12.813,2,14.311C2,15.809,2.509,17.207,3.482,18.187z"
+                                        fill="#ffffff"
+                                        class="color000 svgShape"></path>
+                                </svg>
+                            </g>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://stackoverflow.com/users/19618828/kaushal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact__icon">
+                        <i class="fa-brands fa-stack-overflow fa-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="modal hidden">
+            <a class="btn-lg" href="./assets/KAUSHAL K BHANDARY.pdf" download
+                >Download</a
+            >
+            <canvas id="pdf-canvas"></canvas>
+        </div>
+        <div class="toTop">
+            <a id="toTop" href="#"
+                ><i class="fa-solid fa-circle-arrow-up"></i
+            ></a>
+        </div>
+
+        <footer><span>© 2024 KB. All rights reserved.</span></footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js"></script>
+        <script>
+            const url = './assets/KAUSHAL K BHANDARY.pdf';
+
+            // Asynchronous download of the PDF
+            pdfjsLib.getDocument(url).promise.then(pdf => {
+                // Fetch the first page
+                return pdf.getPage(1);
+            }).then(page => {
+                const scale = 1.5;
+                const viewport = page.getViewport({ scale });
+
+                // Prepare canvas using PDF page dimensions
+                const canvas = document.getElementById('pdf-canvas');
+                const context = canvas.getContext('2d');
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                // Render PDF page into canvas context
+                const renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                page.render(renderContext);
+            });
+        </script>
+    </body>
+</html>
