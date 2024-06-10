@@ -570,6 +570,11 @@ footer span {
 
     .skill__card-content > h4 {
         font-size: 2rem;
+        transform: translateY(40px);
+    }
+
+    .skill__card:hover p {
+        transform: translateY(-10px);
     }
 }
 
@@ -601,6 +606,7 @@ footer span {
     .skills,
     .projects {
         margin: 0 5rem;
+        padding: 5rem 0;
     }
     .contact {
         margin-top: 5rem;
@@ -624,6 +630,9 @@ footer span {
     }
     .project__details > p {
         font-size: 1.3rem;
+    }
+    .skill__card:hover p {
+        transform: translateY(0px);
     }
     .contact__medias {
         width: 90%;
