@@ -129,7 +129,7 @@ document.querySelector('.nav-burger').addEventListener('click', function (e) {
 
 let lastScrollTop = 0;
 const mobileNav = document.querySelector('.mobile-nav');
-const scrollThreshold = 30; // Minimum scroll distance to trigger navbar visibility change
+const scrollThreshold = 101; // Minimum scroll distance to trigger navbar visibility change
 
 window.addEventListener('scroll', () => {
     let currentScroll = document.documentElement.scrollTop;
