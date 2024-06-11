@@ -473,7 +473,7 @@ footer span {
     justify-content: space-between;
     background-color: #181a27;
     padding: 2rem 0;
-    transition: all 500ms;
+    transition: all 200ms;
 }
 
 .nav-burger {
